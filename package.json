@@ -1,0 +1,24 @@
+{
+  "name": "projecttemplatefrontendspareact-mock-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "clean": "rimraf dist",
+    "start": "npm run clean && tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexeyAbretov/ProjectTemplateFrontendSpaReact-mock-server.git"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "faker": "^5.5.3",
+    "rimraf": "^6.1.2",
+    "tsc-watch": "^7.2.0",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
