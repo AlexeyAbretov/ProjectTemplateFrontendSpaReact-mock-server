@@ -5,9 +5,7 @@ export const get: RequestHandler = async (req, res) => {
 
     if (scenario === 'http400') {
         res.status(400);
-        res.send({
-            status: 400
-        });
+        res.send();
         return;
     }
 
